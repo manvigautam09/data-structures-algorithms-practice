@@ -33,3 +33,13 @@ class MyArray {
     this.length--;
   }
 }
+
+const newArray = new MyArray();
+newArray.push("hi");
+newArray.push("you");
+newArray.push("!");
+newArray.delete(1);
+newArray.push("are");
+newArray.push("nice");
+newArray.delete(1);
+console.log(newArray);
